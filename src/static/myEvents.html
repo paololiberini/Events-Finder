@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Events Finder</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container p-3">
+            <div></div>
+
+            <div>
+                <a type="button" class="btn btn-outline-primary" id="addButton" href="/">Home</a>
+                <a type="button" class="btn btn-outline-primary" id="addButton" href="/add">Add New</a> 
+                <a class="btn btn-outline-primary" href="/auth/logout">Log out</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="py-5">My events</h2>
+
+        <div id="myEventsContainer"></div>
+
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center">
+        <p>Events finder - A project for Web Development course at UniCatt </p>
+    </footer>
+
+
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+<script src="js/myEvents.js"></script>
+</body>
+</html>

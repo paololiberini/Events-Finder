@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 40;
+}
+
+.btn-search {
+  padding: 0.6rem 4rem;
+  
+}
+
+.display-4 {
+  font-weight: 600;
+}
+
+.alert {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  opacity: 100%;
+  width: 50%;
+  z-index: 99999;
+}
+
+#mapid { 
+  height: 500px; 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+.badge-primary.active {
+  background-color: #012f61;
+}
+
+
+.selectedCard {
+	box-shadow: 0 .0rem .7rem rgba(0, 0, 0, 0.82) !important;
+}
+
+.col-md-4 {
+  padding-top: 1rem;
+}
+
+.radio-inline {
+  margin-left: 1rem;
+}
+
+input[type="radio"] {
+  margin-right: .3rem;
+}
+
+.favouriteModalContent .row {
+  margin-top: 1rem;
+}
+
+#myEventsContainer .row {
+  margin-top: 1rem;
+}
+
+
+.favouriteModalContent .btn-group {
+  float: right;
+}
+
+#myEventsContainer .btn-group {
+  float: right;
+}
+
+#mapadd { 
+  height: 230px; 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+.btn-delete {
+  color: red;
+  border-color: red;
+}
